@@ -1,0 +1,178 @@
+h3 {
+  color: purple;
+	font-size: 30px;
+	font-family: 'Castoro', serif;
+	font-family: 'Dosis', sans-serif;
+	text-align: center;
+}
+
+p {
+	color : black;
+	font-size: 24px;
+	font-family: 'Nanum Myeongjo', serif;
+	margin-bottom: 20px;
+}
+
+h4 {
+	color: black;
+	font-size: 28px
+	font-family: 'Castoro', serif;
+font-family: 'Dosis', sans-serif;
+}
+body {
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyzLa1WVtdu1hK3MFGQr5KpSmLa7axQfCyzA&usqp=CAU');
+	background-attachment:fixed; 
+font-family: 'Open Sans',sans-serif;
+}
+div {
+	background-color: #ffe2ff;
+	border: 1.5px solid white;
+	margin-left: 70px;
+	margin-right: 70px;
+	margin-top: 70px;
+	margin-bottom: 10px;
+	box-shadow:15px 15px 45px #8FC0A9;
+	border-radius: 10px;
+	border:1.5px solid black;
+	padding: 28px;
+}
+img {width:20%}
+.perfect-circle {
+  width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+#photo {
+	margin-left: 40%;
+}
+
+.img-circle { 
+/* select all elements with the class="img-circle" */
+  border-radius: 50%;
+  box-shadow: 15px 15px 45px #8FC0A9;
+}
+
+h1 {
+	font-size: 60px;
+	text-align: center;
+	font-family: 'Roboto Mono', monospace;
+}
+
+h4 {
+	margin-left: 40%;
+	font-size:40px;
+}
+
+h2 {
+	text-align: center;
+	font-size:40px;
+	font-family: 'Roboto Mono', monospace;
+}
+
+#button {
+	border: 2px solid #EEEEF5;
+	border-radius: 10px;
+	background-color: #efb1ff;
+	box-shadow: black;
+	width: 1000px;
+	margin: 0px;
+	padding: 13px 16px;
+	text-decoration: none;
+	text-decoration-color: none;
+	color: black;   
+	font-size: 25px;                 
+}
+
+#button:hover {
+	background-color: #c295d8;
+	color: solid black;
+	border: 2px solid #EEEEF5;
+	border-radius: 10px;
+}
+
+#presentation {
+	height: 160px;
+	text-align: center;
+}
+
+#banner {
+	background-image: url(images/coeur.jpg);
+	color: white;
+	width: 100%;
+	height: 400px;
+	background-size: cover;
+	background-position: center;
+	color: white;
+	text-align:center;
+	text-underline-position: left;
+	padding:3px;
+	margin: 0px
+}
+
+#banner > h5 {
+	padding-top: 100px;
+	text-align: left;
+	margin-left: 100px;
+	font-size: 40px;
+}
+
+.flexbox {
+	border: 2px dotted purple;
+	height: 100px;
+	flex-direction: row;
+	align-items: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.flex-items {
+	border: 2px solid purple;
+	margin: 0px;
+	padding: 10px;
+	box-shadow: #c295d8; 
+}
+
+#purple {
+	border: 2px solid purple;
+	box-shadow: none;
+}
+
+#blue {
+	border: 2px sloid blue;
+	box-shadow: none;
+}
+
+i {
+	font-size: 80px;
+	color:purple;
+}
+
+.container {
+	background: transparent;
+	border:transparent;
+	box-shadow: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
